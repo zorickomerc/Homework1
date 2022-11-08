@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #fdfafa;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #22224A;
+}
+
+.sticky a {
+  color: #baa010;
+}
+
+@media only screen and (max-width: 600px; ) {
+  .nav {
+    font-size: 0.5rem;
+    padding: 0;
+  }
+}
+
+.mzdrsd {
+  display: flex;
+  max-width: 100%;
+  height: 40rem;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url('../images/startingpage.png');
+  background-size: cover;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.mzdc12 h1 {
+  color: #22224A;
+  font-size: 5rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.mzdc12 h1:hover {
+  color: #eae6af;
+}
+
+.ouroptions {
+  color: #22224A;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 5vh;
+  text-align: center;
+  height: 10vh;
+}
+
+.ouroptions h1 {
+  font-size: 2.7rem;
+  transition: 0.4s;
+  text-transform: uppercase;
+}
+
+.ouroptions h1:hover {
+  color: #eae6af;
+  padding-bottom: 3vh;
+}
+
+.ouroptions p {
+  font-size: 1.4rem;
+  color: #22224A;
+  transition: 0.3s;
+}
+
+.ouroptions p:hover {
+  color: #eae6af;
+}
+
+/*BUFFER ZONE*/
+.buffer {
+  height: 3rem;
+}
+
+/*central-grid*/
+
+.expirience-offers {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 2fr 2fr 2fr;
+  color: #fdfafa;
+}
+
+.column-1 {
+  display: block;
+  text-align: center;
+  background-color: #22224A;
+  max-width: 500px;
+  margin: 2.5em;
+  max-height: 30rem;
+  -webkit-box-shadow: 7px 5px 15px -2px rgba(0, 0, 0, 0.66);
+  box-shadow: 7px 5px 15px -2px rgba(0, 0, 0, 0.66);
+  transition: 0.3s;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.column-1:hover {
+  margin-top: 2vh;
+  background-color: #eae6af;
+  color: black;
+  -webkit-box-shadow: 17px 11px 15px -1px rgba(0, 0, 0, 0.66);
+  box-shadow: 17px 11px 15px -1px rgba(0, 0, 0, 0.66);
+}
+
+.column-1 img {
+  margin-top: 40px;
+  max-width: 16rem;
+  max-height: 4rem;
+}
+
+.colrsd1 img {
+  max-width: 24rem;
+  max-height: 5.3rem;
+}
+
+.text-column {
+  margin-top: 5vh;
+  margin-bottom: 15vh;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-column-office {
+  margin-top: 6.5vh;
+  margin-bottom: 15vh;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.text-column h4 {
+  width: 100%;
+  text-transform: uppercase;
+}
+
+.text-column p {
+  width: 100%;
+}
+
+/*BRANDS-SCTION*/
+.brands {
+  margin-top: 6vh;
+  text-align: center;
+}
+
+.silestonemzd {
+  max-width: 400px;
+  height: auto;
+  padding: 2rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #22224A;
+  color: #fdfafa;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-top: 58px;
+}
+
+.fiksni-number {
+  padding-top: 11.6px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #baa010;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+@media only screen and (max-width: 600px; ) {
+  .fiksni-number {
+    font-size: 14px;
+    padding: 20px;
+  }
+}
+
+.fiksni-number h3 {
+  font-size: 24px;
+}
+
+.fiksni-number h4 {
+  margin-left: 25px;
+  letter-spacing: 3px;
+  margin-right: 17px;
+  font-size: 20px;
+}
+
+.phone-icon {
+  max-width: 43px;
+  height: auto;
+  margin-bottom: 1vh;
+}

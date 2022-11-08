@@ -1,0 +1,225 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: #eeeded;
+}
+
+.sticky {
+    background-color: #22224A;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 2vh;
+}
+
+.sticky a {
+    color: rgb(184, 147, 99);
+}
+
+@media only screen and (max-width: 600px; ) {
+    .nav {
+        font-size: 0.5rem;
+        padding: 0;
+    }
+}
+
+.container-start {
+    background-image: url(https://secure.img1-cg.wfcdn.com/im/83497108/resize-h755-w755%5Ecompr-r85/1393/139311898/Calacatta+Indigo+24+in.+x+24+in.+Porcelain+Wall+%26+Floor+Tile.jpg);
+    background-size: cover;
+    height: 45rem;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-start h1 {
+    color: #22224A;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 5rem;
+    transition: 0.3s;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.container-start h1:hover {
+    color: rgb(184, 147, 99);
+}
+
+/*container central*/
+.container {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 5rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-start {
+        height: 70rem;
+    }
+
+    .container {
+        grid-template-columns: 2fr;
+    }
+
+    .plate {
+        padding: 40%;
+    }
+
+    .plate p {
+        font-size: 13rem;
+    }
+}
+
+.plate {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 0px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.plate:hover {
+    -webkit-box-shadow: 8px 8px 14px 7px rgba(0, 0, 0, 0.35);
+    box-shadow: 8px 8px 14px 7px rgba(0, 0, 0, 0.35);
+}
+
+.plate p {
+    font-size: 4vh;
+    padding: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #22224A;
+    text-transform: uppercase;
+}
+
+.plate p:hover {
+    color: darkred;
+}
+
+/*SAMPLES*/
+.plate-1 {
+    background-size: cover;
+    background-image: url(https://mobileimages.lowes.com/productimages/7846c0eb-53b0-4a26-bca6-0b7298c05d4c/03173428.jpg?size=xl);
+}
+
+.plate-2 {
+    background-size: cover;
+    background-image: url(https://images.homedepot.ca/productimages/p_1001554702.jpg?product-images=l);
+}
+
+.plate-3 {
+    background-size: cover;
+    background-image: url(https://i.pinimg.com/originals/b4/c2/87/b4c28704e01409a65ea4bb2a38691f3d.jpg);
+}
+
+.plate-4 {
+    background-size: cover;
+    background-image: url(https://mobileimages.lowes.com/productimages/7f91f10b-5a5f-44e2-adb4-b69707ec08f1/04983059.jpg?size=xl);
+}
+
+.plate-5 {
+    background-size: cover;
+    background-image: url(https://mobileimages.lowes.com/productimages/f79fb9de-900b-4868-a071-7b1d031b286f/04946476.jpg?size=pdhism);
+}
+
+.plate-6 {
+    background-image: url(https://mobileimages.lowes.com/productimages/1c1432f7-ac82-4a63-84f8-6873dd560484/09370887.jpg?size=pdhi);
+    background-size: cover;
+}
+
+.plate-6 p {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*SEPARATE*/
+.container-plate {
+    text-align: center;
+    color: #22224A;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 4rem;
+    margin-bottom: 3em;
+}
+
+.djokovic {
+    padding: 0%;
+}
+
+.djokovic h2 {
+    font-size: 3rem;
+    transition: 0.3s;
+    cursor: e-resize;
+}
+
+.djokovic h2:hover {
+    font-size: 3.2rem;
+    color: darkred;
+}
+
+.djokovic p {
+    padding-top: 20px;
+    font-size: 1.3rem;
+    transition: 0.3s;
+    cursor: e-resize;
+}
+
+.djokovic p:hover {
+    color: darkred;
+}
+
+/* SLEDECI SECTION */
+.juppy {
+    margin: 2rem 2rem 0.4rem 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    background: url('../images/cnc-crucial872.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+}
+
+.overlay {
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.juppy .row {
+    padding: 0;
+}
+
+.row h1 {
+    text-align: center;
+    color: #eeeded;
+    text-transform: uppercase;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.row h3 {
+    color: #eeeded;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: ivory;
+    padding-bottom: 17rem;
+}
+
+.text-loremy {
+    color: #eeeded;
+    padding-bottom: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+/* FOOTER */
+
